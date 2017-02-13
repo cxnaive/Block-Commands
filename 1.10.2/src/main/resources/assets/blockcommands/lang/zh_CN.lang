@@ -1,0 +1,17 @@
+commands.commandadd.usage=/commandadd @Command:命令文本 @Message:发送给触发者的信息 @Delay:延迟执行时间 @Cooldown:触发冷却时间 @Bypass(以最高权限执行) @isWalk(走过触发) @isClick(点击触发) @Player:玩家名字(设置只有这个人能触发) @Item:物品名:数量(消耗这么多的物品来触发,否则不触发) @Amount:次数(命令能执行的次数,不设置即为无限制) 所有的"@"都是可选的,不设置默认无限制,但是在"@Command"和"@Message"中至少要有一个,在"@isWalk"和"@isClick"中至少要有一个,右键来在方块上添加命令.
+commands.commanddel.usage=/commanddel 开启命令删除模式,右键方块来删除上面的命令.
+commands.commandview.usage=/commandview 开启命令查看模式,右键方块来查看方块上的命令.
+commands.commanddis.usage=/commanddis 退出命令修改模式
+commands.commandclear.usage=/commandclear 清空这个世界的所有命令.
+commands.commandadd.setcommand=新的命令添加模式内容:"%1$s".
+commands.commanddel.enable=命令删除模式已开启.
+commands.commandclear.success=成功清空这个世界的所有命令.
+commands.commandview.enable=命令查看模式已开启.
+commands.commanddis.enable=已退出命令修改模式.
+commands.commanddel.success=成功删除这个方块上的命令.
+commands.commandadd.success=成功更新此方块上的命令.
+commands.fail.nocommands=此方块上现在没有命令.
+commands.fail.hasalready=此方块上已有这个命令.
+commands.show.string=此方块上的命令有:
+blockcommands.wrong.invaliditem=不存在" %1$s "这个物品.
+blockcommands.wrong.itemamountrequired=至少需要%2$d个%1$s物品.

@@ -1,0 +1,17 @@
+commands.commandadd.usage=/commandadd @Command:CommandText @Message:MessageTest @Delay:DelayTime @Cooldown:Cooldowntime @Bypass(Excutes as OP) @isWalk @isClick @Player(Only Specific player can excute) @Item:Itemname:amount(Item Costs) @Amount:amount(Excute Amount Limit) All the "@" is optional, but for "@command" and "@message", you need to have at least one of them, same for "@isWalk" and "@isClick".
+commands.commanddel.usage=/commanddel Enabled CommandDeleter, used to remove commands on a block.
+commands.commandview.usage=/commandview Enabled CommandViewer, used to show commands on a block.
+commands.commanddis.usage=/commanddis Disable CommandSeter.
+commands.commandclear.usage=/commandclear Clear all commands in this world.
+commands.commandadd.setcommand=New Commandadder set:"%1$s".
+commands.commanddel.enable=CommandDeleter Enabled.
+commands.commandclear.success=Successfully cleared all commands in this world.
+commands.commandview.enable=CommandViewer Enabled.
+commands.commanddis.enable=CommandSeter Disabled.
+commands.commanddel.success=Successfully removed command on this block.
+commands.commandadd.success=Successfully updated command on this block.
+commands.fail.nocommands=This block dosen't have an command yet.
+commands.fail.hasalready=This Block Already has this command.
+commands.show.string=Commands on this block are:
+blockcommands.wrong.invaliditem=Invaild Requried Item:" %1$s ".
+blockcommands.wrong.itemamountrequired=Requried Item:" %1$s " needs at least %2$d.
